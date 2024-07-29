@@ -1,0 +1,43 @@
+.area{
+    /* width: 400px;
+    height: 100px; */
+    margin-left: 55px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.span{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.continer{
+    width: 500px;
+    height: 250px;
+    background-color: aquamarine;
+    border-top:5px solid brown;
+    border-bottom: 5px solid brown;
+    margin-left: 350px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px;
+}
+h2{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+body{
+    background-color: cadetblue;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: blue;
+ color: beige;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 3px 3px  black;
+}

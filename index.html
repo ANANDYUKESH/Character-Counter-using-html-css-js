@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/character counter/style.css">
+</head>
+<body>
+    <div class="continer">
+        <h2>Real-time Character Counter</h2>
+        <textarea name=""  rows="8" cols="50" class="area" placeholder="Please write your text here..." id="text"></textarea>
+        <div class="span">
+            <p>Total Character: <span class="total" id="char">0</span></p>
+            <p>Remaining: <span class="remain" id="char1">0</span></p>
+        </div>
+    </div>
+    <button class="btn" onclick="count()">count character</button>
+    <script>
+         function count() {
+            var text=document.getElementById("text").value
+            var spl=text.split("")
+            var len=spl.length
+            var rem=100-len
+           document.getElementById("char").innerHTML=len;
+        document.getElementById("char1").innerHTML=rem;
+        
+       
+        
+         }
+    </script>
+</body>
+</html>
